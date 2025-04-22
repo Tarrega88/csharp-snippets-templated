@@ -1,0 +1,35 @@
+<CodeSnippet Format="1.0.0">
+  <Header>
+    <Title>ntup</Title>
+    <Shortcut>ntup</Shortcut>
+    <Description>Template for Tuple</Description>
+    <Author>Michael See</Author>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>type1</ID>
+        <ToolTip>First type</ToolTip>
+        <Default>T1</Default>
+      </Literal>
+      <Literal>
+        <ID>type2</ID>
+        <ToolTip>Second type</ToolTip>
+        <Default>T2</Default>
+      </Literal>
+      <Literal>
+        <ID>name</ID>
+        <ToolTip>Variable name</ToolTip>
+        <Default>placeholder</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="csharp">
+      <![CDATA[
+($type1$, $type2$) $name$ = default;
+      ]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>

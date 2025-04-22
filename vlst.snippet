@@ -1,0 +1,30 @@
+<CodeSnippet Format="1.0.0">
+  <Header>
+    <Title>vlst</Title>
+    <Shortcut>vlst</Shortcut>
+    <Description>Template for List</Description>
+    <Author>Michael See</Author>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>type</ID>
+        <ToolTip>Data type</ToolTip>
+        <Default>T</Default>
+      </Literal>
+      <Literal>
+        <ID>name</ID>
+        <ToolTip>Variable name</ToolTip>
+        <Default>placeholder</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="csharp">
+      <![CDATA[
+var $name$ = new List<$type$>();
+      ]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>

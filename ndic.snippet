@@ -1,0 +1,35 @@
+<CodeSnippet Format="1.0.0">
+  <Header>
+    <Title>ndic</Title>
+    <Shortcut>ndic</Shortcut>
+    <Description>Template for Dictionary</Description>
+    <Author>Michael See</Author>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>key</ID>
+        <ToolTip>Key type</ToolTip>
+        <Default>TKey</Default>
+      </Literal>
+      <Literal>
+        <ID>value</ID>
+        <ToolTip>Value type</ToolTip>
+        <Default>TValue</Default>
+      </Literal>
+      <Literal>
+        <ID>name</ID>
+        <ToolTip>Variable name</ToolTip>
+        <Default>placeholder</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="csharp">
+      <![CDATA[
+Dictionary<$key$, $value$> $name$ = [];
+      ]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>
